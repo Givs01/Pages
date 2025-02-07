@@ -32,7 +32,7 @@ function startCountdown() {
 
             setTimeout(() => {
                 element.innerText = newValue;
-                element.classList.remove("flip");
+                element.classList.remove("flip"); 
             }, 500); 
         }
     }
